@@ -44,8 +44,9 @@ export default class StatsComponent extends Component{
                 spinner
                 text={this.state.loaderText} 
             >
-                <div id="content">                
-                    <table className="table table-hover table-dark">
+                <div id="content">  
+                    <div className="tableStats">
+                        <table className="table table-hover table-dark">
                         <thead>
                             <th>City</th>
                             <th>Province</th>
@@ -68,7 +69,8 @@ export default class StatsComponent extends Component{
                                 ))
                             }
                         </tbody>
-                    </table>
+                        </table>
+                    </div>
                 </div> 
             </LoadingOverlay>               
         );

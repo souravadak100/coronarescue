@@ -16,14 +16,13 @@
 
 
     /* The footer is fixed to the bottom of the page */
- 
-footer{
-    background-color: #2c292f;
-    font: bold 16px sans-serif;
-    text-align: center;
-	padding: 10px;
-    position: fixed;
-    color: white;
+
+footer {
+	background-color: #e9ecef;
+	font: bold 18px sans-serif;
+	text-align: center;
+	padding: 15px 0;
+	position: fixed;
 	bottom: 0;
 }
  

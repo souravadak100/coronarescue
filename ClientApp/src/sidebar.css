@@ -203,3 +203,8 @@ ul ul button {
         .newsContainer .newsBody {
             height: 150px;
         }
+
+.tableStats {
+    height: 600px;
+    overflow-y: scroll;
+}
